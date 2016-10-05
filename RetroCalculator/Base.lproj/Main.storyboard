@@ -45,7 +45,7 @@
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="nSM-R1-WVm">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzm-zu-Wm9">
+                                            <button opaque="NO" tag="7" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzm-zu-Wm9">
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="58" id="Ic7-8g-4iJ"/>
                                                     <constraint firstAttribute="width" constant="56" id="uBB-zX-wgU"/>
@@ -55,7 +55,7 @@
                                                     <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9LA-Z5-ELs"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhg-6A-r2m">
+                                            <button opaque="NO" tag="8" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhg-6A-r2m">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="56" id="e23-Ku-b7V"/>
                                                     <constraint firstAttribute="height" constant="58" id="htn-rY-9Yg"/>
@@ -65,7 +65,7 @@
                                                     <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SBm-8j-D9G"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8I-Tp-UHu">
+                                            <button opaque="NO" tag="9" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8I-Tp-UHu">
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="58" id="ISV-fz-chd"/>
                                                     <constraint firstAttribute="width" constant="56" id="bHu-ge-vuc"/>
@@ -79,7 +79,7 @@
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="qLq-uO-Ea7">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qn-im-bOv">
+                                            <button opaque="NO" tag="6" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0qn-im-bOv">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="56" id="EqE-MW-lxU"/>
                                                     <constraint firstAttribute="height" constant="58" id="GDR-Yz-j8K"/>
@@ -89,7 +89,7 @@
                                                     <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0W3-DN-XtI"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8h-9U-2Bz">
+                                            <button opaque="NO" tag="5" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8h-9U-2Bz">
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="58" id="Zaw-uk-tN4"/>
                                                     <constraint firstAttribute="width" constant="56" id="vf4-wd-I2x"/>
@@ -99,7 +99,7 @@
                                                     <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wCg-e8-6sS"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDf-G2-Tij">
+                                            <button opaque="NO" tag="4" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDf-G2-Tij">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="56" id="4DW-Ly-Moh"/>
                                                     <constraint firstAttribute="height" constant="58" id="9fn-TM-XC1"/>
@@ -113,7 +113,7 @@
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="47V-LI-EZy">
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmB-GE-x0R">
+                                            <button opaque="NO" tag="1" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmB-GE-x0R">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="56" id="j1B-Fv-hap"/>
                                                     <constraint firstAttribute="height" constant="58" id="rUd-Yp-gHD"/>
@@ -123,7 +123,7 @@
                                                     <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cTg-9p-Qmn"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgt-yC-g19">
+                                            <button opaque="NO" tag="2" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgt-yC-g19">
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="58" id="Nb3-Ko-0ud"/>
                                                     <constraint firstAttribute="width" constant="56" id="Uhd-IG-WQb"/>
@@ -133,7 +133,7 @@
                                                     <action selector="numberPressedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H7Y-yG-4C1"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVw-eH-oDG">
+                                            <button opaque="NO" tag="3" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVw-eH-oDG">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="56" id="xVN-B2-Sqa"/>
                                                     <constraint firstAttribute="height" constant="58" id="xgo-ru-Of1"/>
@@ -230,6 +230,9 @@
                             <constraint firstItem="gax-Nj-3pC" firstAttribute="trailing" secondItem="Woe-et-s0I" secondAttribute="trailing" constant="-15" id="vn6-63-Dnk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="outputLabel" destination="gax-Nj-3pC" id="Y4T-Ee-j48"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
