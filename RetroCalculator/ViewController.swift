@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     
     var buttonSound: AVAudioPlayer!
 
+    @IBOutlet weak var outputLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
